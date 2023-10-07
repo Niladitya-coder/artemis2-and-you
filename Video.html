@@ -6,40 +6,46 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <title>WATCH THE VIDEO!</title>
     <style>
+      header {
+            background-image: url('Artemis-I-launch.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 500px; 
+        }
       .video-container {
         display: block;
-        width: 60%; /* Adjust as needed */
-        margin: auto; /* Centers the video horizontally */
-        border: 5px solid #333; /* Adjust border color and width as needed */
-        padding: 10px; /* Adjust padding as needed */
+        width: 60%; 
+        margin: auto; 
+        border: 5px solid #333; 
+        padding: 10px; 
       }
       </style>
 </head>
 <body style="text-align: center">
-    <header class="text-gray-400 bg-gray-900 body-font">
+    <header title="Artemis-I Launch" class="text-gray-400 bg-gray-900 body-font">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
             <img src="https://th.bing.com/th/id/OIP.g9uKv66nm-9W_1O6QqFcsQHaGx?pid=ImgDet&rs=1" alt="Logo" style="width:50px;height:50px;">
             <span class="ml-3 text-xl">Artemis II and You!</span>
           </a>
-          <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-            <a href="index.html" class="mr-5 hover:text-white">Back to Home</a>
-            <a href="Team.html" class="mr-5 hover:text-white">Meet our Team (The Lunar Visionaries)</a>
+          <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center font-medium " style="color:white">
+            <a title="Returns You Back to Home!" HREF="index.html" mr-5 hover:text-white">Back to Home</a>
           </nav>
         </div>
       </header>
       <hr>
-    <section class="text-gray-400 bg-gray-900 body-font">
+    <section class="text-gray-400 bg-blue-900 body-font">
     <br>
-  	<h1 style="color: whitesmoke">WATCH THE VIDEO</h1>
-		<p>This Video will provide us the Insights about NASA's Artemis II Mission.</p>
+  	<h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-whitesmoke">WATCH THE VIDEO!</h1>
+		<p class="lg:w-2/3 mx-auto leading-relaxed text-white font-medium">Watch this Video as we explain The Artemis II Mission in the most Simple and Concise Way Possible.</p>
     <br>
     <hr>
     <br>
     <br>
 		<div class="video-container">
       <video width="100%" controls>
-        <source src="ARTEMIS II AND YOU! compressed.mp4" type="video/mp4">
+        <source src="Artemis-II-and-You! - Made with Clipchamp.mp4" type="video/mp4">
       </video>
     </div>
     <a HREF="https://www.nasa.gov/specials/artemis/">
@@ -47,10 +53,7 @@
     <p>Source : Artemis Campaign Page</p>
     </a>
     <br>
-    <br>
     <hr>
-    <br>
-    <br>
     </section>
     <footer class="text-gray-400 bg-gray-900 body-font">
       <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
